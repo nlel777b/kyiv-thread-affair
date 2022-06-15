@@ -4,8 +4,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Thead Affair</title>
       </Head>
+
+      <header className="header">
+        Hello
+        <img src="./../images/logo.jpg" alt="" />
+        <i className="fa-solid fa-phone"></i>
+      </header>
+
+      <main className="content"></main>
+
+      <footer className="footer"></footer>
     </div>
   );
 }
